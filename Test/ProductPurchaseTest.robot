@@ -1,6 +1,6 @@
 *** Settings ***
 Library     SeleniumLibrary
-Resource    Resource/TestStepsKeyword.robot
+Resource    ../Resource/TestStepsKeyword.robot
 Test Setup  Navigate to Sauce Demo application      ${URL}
 Test Teardown   Close Browser
 
